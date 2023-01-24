@@ -10,7 +10,6 @@ def recursion_rpn(rpn):
             component[cnt] = a
             cnt -= 1
         else:
-            print(string[rpn])
             component[cnt] = int(rpn[pos])
             cnt -= 1
             pos += 1
